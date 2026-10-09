@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#11120f">
+
+    <title>Michael Stryder | Dream of the White Wolf</title>
+
+    <meta name="description" content="Enter the world of Dream of the White Wolf: The Devin Spade Saga, a dark fairy tale by Michael Stryder.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: #11120f;
+            color: #e8e5dc;
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 24px 8%;
+            border-bottom: 1px solid #34362e;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .brand {
+            color: #e8e5dc;
+            text-decoration: none;
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            color: #b9b7a9;
+            text-decoration: none;
+            margin-left: 24px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: #d7c28b;
+        }
+
+        .hero {
+            min-height: 76vh;
+            padding: 100px 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background:
+                radial-gradient(
+                    ellipse at center,
+                    #292b22 0%,
+                    #181913 48%,
+                    #11120f 78%
+                );
+        }
+
+        .eyebrow {
+            color: #c9b77e;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 0.75rem;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 7vw, 5.5rem);
+            line-height: 1.12;
+            font-weight: normal;
+            letter-spacing: 2px;
+            margin: 24px 0 12px;
+        }
+
+        .subtitle {
+            color: #c9b77e;
+            font-size: clamp(1rem, 3vw, 1.35rem);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .description {
+            max-width: 600px;
+            color: #c0beb4;
+            font-size: 1.1rem;
+            margin: 28px auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 28px;
+            border: 1px solid #c9b77e;
+            color: #e8e5dc;
+            text-decoration: none;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .button:hover {
+            background: #c9b77e;
+            color: #11120f;
+        }
+
+        section {
+            padding: 75px 24px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            font-weight: normal;
+            margin-bottom: 12px;
+        }
+
+        section p {
+            max-width: 650px;
+            margin: 0 auto 20px;
+            color: #b9b7ad;
+        }
+
+        .book {
+            background: #191a15;
+            border-top: 1px solid #34362e;
+            border-bottom: 1px solid #34362e;
+        }
+
+        .book-title {
+            color: #c9b77e;
+            font-size: 1.35rem;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            padding: 30px 20px;
+            text-align: center;
+            color: #88897f;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero {
+                min-height: 65vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="brand" href="#">Michael Stryder</a>
+
+        <nav aria-label="Main navigation">
+            <a href="#story">The Story</a>
+            <a href="#book">The Book</a>
+            <a href="#author">The Author</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="eyebrow">A Dark Fairy Tale</p>
+
+            <h1>Dream of<br>the White Wolf</h1>
+
+            <p class="subtitle">The Devin Spade Saga</p>
+
+            <p class="description">
+                Every soul carries two wolves.
+                The question is not which one will survive.
+                It is which one you will choose to feed.
+            </p>
+
+            <a class="button" href="#story">Enter the World</a>
+        </section>
+
+        <section id="story">
+            <p class="eyebrow">Beyond the Known World</p>
+
+            <h2>A Story of Light and Shadow</h2>
+
+            <p>
+                Fate may shape the road before us.
+                It cannot decide who we become along the way.
+            </p>
+
+            <p>
+                Journey into a world of ancient powers, buried truths,
+                and the fragile line between the light we seek
+                and the darkness we carry.
+            </p>
+        </section>
+
+        <section class="book" id="book">
+            <p class="eyebrow">Book One</p>
+
+            <h2 class="book-title">A Wolf on Fire</h2>
+
+            <p>
+                The first chapter of The Devin Spade Saga.
+                A journey into the wilderness of the soul,
+                where every choice has a cost.
+            </p>
+        </section>
+
+        <section id="author">
+            <p class="eyebrow">The Author</p>
+
+            <h2>Michael Stryder</h2>
+
+            <p>
+                Some stories entertain us.
+                Others hold a mirror to the world,
+                and ask us what we see.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Michael Stryder. All rights reserved.</p>
+        <p>Dream of the White Wolf · The Devin Spade Saga</p>
+    </footer>
+</body>
+</html>
