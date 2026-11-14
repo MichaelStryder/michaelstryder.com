@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11120F">
+  <meta name="description" content="Read the first nine chapters of A Wolf on Fire, Book One of Dream of The White Wolf: The Devin Spade Saga by Michael Stryder.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="A Wolf on Fire · Part One | Michael Stryder">
+  <meta property="og:description" content="Read the first nine chapters of Dream of The White Wolf: The Devin Spade Saga.">
+  <meta property="og:image" content="https://michaelstryder.com/images/book-one-cover-shadow-wolf.png">
+  <link rel="canonical" href="https://michaelstryder.com/part-one.html">
+  <title>A Wolf on Fire · Part One | Michael Stryder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --obsidian:#11120F; --ash:#292B26; --bone:#E8E5DC; --silver:#AEB5B4; --old-gold:#C9B77E; --line:rgba(174,181,180,.22); --content-width:1120px; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:92px; }
+    body { margin:0; background:var(--obsidian); color:var(--bone); font-family:"Source Sans 3",sans-serif; font-size:18px; line-height:1.82; }
+    a { color:var(--old-gold); text-decoration:none; }
+    a:hover,a:focus-visible { color:var(--bone); }
+    a:focus-visible { outline:2px solid var(--old-gold); outline-offset:4px; }
+    img { display:block; max-width:100%; }
+    .wrap { width:min(var(--content-width),calc(100% - 44px)); margin:0 auto; }
+    .site-header { position:sticky; top:0; z-index:20; background:rgba(17,18,15,.95); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
+    .nav-shell { min-height:76px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { color:var(--bone); font-family:"Cormorant Garamond",serif; font-size:23px; line-height:1.05; letter-spacing:.025em; }
+    .brand small { display:block; color:var(--silver); font-family:"Source Sans 3",sans-serif; font-size:10px; letter-spacing:.19em; text-transform:uppercase; margin-top:5px; }
+    .nav-links { display:flex; align-items:center; flex-wrap:wrap; gap:clamp(12px,2.4vw,30px); }
+    .nav-links a { color:var(--silver); font-size:13px; letter-spacing:.12em; text-transform:uppercase; }
+    .nav-links a:hover,.nav-links a:focus-visible { color:var(--old-gold); }
+    .menu-toggle { display:none; background:none; border:1px solid var(--line); color:var(--bone); padding:8px 12px; font:inherit; cursor:pointer; }
+    .eyebrow,.chapter-label { color:var(--old-gold); font-size:11px; font-weight:600; letter-spacing:.22em; text-transform:uppercase; }
+    h1,h2,h3 { font-family:"Cormorant Garamond",serif; font-weight:500; line-height:1.08; }
+    h1 { font-size:clamp(48px,7vw,78px); letter-spacing:-.025em; margin:14px 0 12px; }
+    h2 { font-size:clamp(38px,5vw,54px); margin:9px 0 0; }
+    p { margin:0 0 1.2em; }
+    .hero { padding:66px 0 56px; border-bottom:1px solid var(--line); background:radial-gradient(ellipse at 70% 0%,rgba(201,183,126,.09),transparent 54%),var(--obsidian); }
+    .hero-grid { display:grid; grid-template-columns:minmax(0,1fr) 230px; align-items:center; gap:56px; }
+    .hero .subtitle { color:var(--silver); font-family:"Cormorant Garamond",serif; font-size:clamp(23px,3vw,31px); margin-bottom:20px; }
+    .hero .intro { max-width:680px; color:var(--silver); font-size:18px; line-height:1.7; }
+    .cover { width:100%; border:1px solid rgba(232,229,220,.18); box-shadow:0 18px 50px rgba(0,0,0,.35); }
+    .contents { padding:52px 0 60px; background:var(--ash); border-bottom:1px solid var(--line); }
+    .contents h2 { font-size:37px; margin:8px 0 23px; }
+    .chapter-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 32px; list-style:none; padding:0; margin:0; }
+    .chapter-list li { border-top:1px solid var(--line); }
+    .chapter-list a { display:flex; gap:14px; align-items:baseline; padding:11px 0; color:var(--bone); font-family:"Cormorant Garamond",serif; font-size:21px; }
+    .chapter-list a:hover { color:var(--old-gold); }
+    .chapter-number { min-width:28px; color:var(--old-gold); font-family:"Source Sans 3",sans-serif; font-size:11px; letter-spacing:.1em; }
+    .reader { padding:62px 0 90px; }
+    .reader-inner { max-width:790px; margin:0 auto; }
+    .part-note { padding:17px 20px; margin-bottom:52px; border-left:2px solid var(--old-gold); background:rgba(255,255,255,.025); color:var(--silver); font-size:15px; line-height:1.6; }
+    .chapter { padding:30px 0 62px; border-bottom:1px solid var(--line); scroll-margin-top:100px; }
+    .chapter + .chapter { padding-top:66px; }
+    .chapter-heading { text-align:center; margin:0 0 38px; }
+    .chapter-heading h2 { font-size:clamp(38px,5vw,52px); }
+    .prose { text-indent:0; }
+    .verse-line { margin:0 0 .12em 1.5em; font-family:"Cormorant Garamond",serif; font-size:21px; line-height:1.48; }
+    .voice-line { margin-left:1.4em; font-family:"Cormorant Garamond",serif; font-size:21px; line-height:1.5; }
+    .inscription { margin:34px 0; text-align:center; font-family:"Cormorant Garamond",serif; font-size:24px; letter-spacing:.04em; }
+    .centered { text-align:center; }
+    .chapter-nav { display:flex; justify-content:space-between; gap:20px; margin-top:36px; padding-top:18px; border-top:1px solid var(--line); font-size:13px; letter-spacing:.08em; text-transform:uppercase; }
+    .site-footer { padding:34px 0; border-top:1px solid var(--line); color:var(--silver); font-size:13px; }
+    .footer-inner { display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    .footer-inner p { margin:0; }
+    .back-top { color:var(--old-gold); letter-spacing:.12em; text-transform:uppercase; font-size:11px; }
+    @media (max-width:800px) {
+      .nav-shell { min-height:68px; }
+      .menu-toggle { display:block; }
+      .nav-links { display:none; position:absolute; top:68px; left:0; right:0; padding:18px 22px 22px; background:var(--obsidian); border-bottom:1px solid var(--line); flex-direction:column; align-items:flex-start; gap:15px; }
+      .nav-links.open { display:flex; }
+      .hero-grid { grid-template-columns:minmax(0,1fr) 170px; gap:28px; }
+      .chapter-list { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    }
+    @media (max-width:580px) {
+      body { font-size:17px; line-height:1.78; }
+      .wrap { width:min(var(--content-width),calc(100% - 32px)); }
+      .brand { font-size:20px; }
+      .hero { padding:48px 0 42px; }
+      .hero-grid { grid-template-columns:1fr; gap:26px; }
+      .cover { width:min(190px,60%); margin:0 auto; grid-row:1; }
+      .hero-copy { text-align:center; }
+      .chapter-list { grid-template-columns:1fr; }
+      .reader { padding:44px 0 66px; }
+      .part-note { margin-bottom:38px; }
+      .chapter { padding-bottom:44px; }
+      .chapter + .chapter { padding-top:48px; }
+      .chapter-heading { margin-bottom:30px; }
+      .verse-line,.voice-line { font-size:20px; }
+      .chapter-nav { font-size:11px; }
+    }
+  </style>
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="wrap nav-shell">
+      <a class="brand" href="index.html#arrival">Michael Stryder<small>Fabulist · Dream of The White Wolf</small></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav-links" id="site-nav" aria-label="Main navigation">
+        <a href="index.html#arrival">Arrival</a>
+        <a href="index.html#world">World</a>
+        <a href="index.html#saga">Saga</a>
+        <a href="index.html#deeper">Deeper</a>
+        <a href="index.html#fabulist">Fabulist</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Dream of The White Wolf · Book One</div>
+          <h1>A Wolf on Fire</h1>
+          <p class="subtitle">The Devin Spade Saga · Part One</p>
+          <p class="intro">A call draws one white wolf beyond the life he knows. What begins as a solitary journey becomes something larger, as lost wolves find one another and discover what it means to walk The Way.</p>
+          <p class="intro">Read the first nine chapters of Michael Stryder’s fantasy saga.</p>
+        </div>
+        <img class="cover" src="images/book-one-cover-shadow-wolf.png" alt="Cover artwork for A Wolf on Fire, featuring a shadow wolf above a ruined city">
+      </div>
+    </section>
+    <section class="contents" id="contents">
+      <div class="wrap">
+        <div class="eyebrow">The reading path</div>
+        <h2>Contents</h2>
+        <ol class="chapter-list">
+          <li><a href="#chapter-1"><span class="chapter-number">One</span><span>The Call</span></a></li>
+          <li><a href="#chapter-2"><span class="chapter-number">Two</span><span>The Companion</span></a></li>
+          <li><a href="#chapter-3"><span class="chapter-number">Three</span><span>Song of Amar</span></a></li>
+          <li><a href="#chapter-4"><span class="chapter-number">Four</span><span>Lokan’s Run</span></a></li>
+          <li><a href="#chapter-5"><span class="chapter-number">Five</span><span>Hollowrest</span></a></li>
+          <li><a href="#chapter-6"><span class="chapter-number">Six</span><span>The Champion</span></a></li>
+          <li><a href="#chapter-7"><span class="chapter-number">Seven</span><span>Madness</span></a></li>
+          <li><a href="#chapter-8"><span class="chapter-number">Eight</span><span>The Order</span></a></li>
+          <li><a href="#chapter-9"><span class="chapter-number">Nine</span><span>The Tribunal</span></a></li>
+        </ol>
+      </div>
+    </section>
+    <article class="reader">
+      <div class="wrap reader-inner">
+        <p class="part-note">This free reading edition contains Chapters One through Nine of <em>A Wolf on Fire</em>. The story continues in Book One of <em>Dream of The White Wolf, The Devin Spade Saga</em>.</p>
+    <section class="chapter" id="chapter-1" aria-labelledby="chapter-1-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter One</div>
+        <h2 id="chapter-1-title">The Call</h2>
+      </header>
+      <p class="prose">Stryder had never known silence like this. Not the warm hush of the den at night, when pups curled into mothers and the fire’s glow settled through fur and bone. This was a wide silence. Empty and cold. A stillness that swallowed breath and thought.</p>
+      <p class="prose">He had walked for nearly a moon. Each bright climb stretched the world wider. Mountains cut the treeline like snaggled teeth. Rivers roared over rock and memory. Even the sky felt alive, watching this lone white wolf trudge west on tired paws.</p>
+      <p class="prose">Sometimes he forgot why he had left. His legs burned. His belly clawed at him. In the dying light, he cursed the voice that haunted his dreams. A distant howl of hope and sorrow.</p>
+      <p class="voice-line"><em>Remember.</em></p>
+      <p class="prose">But all he could think about was what he was leaving behind. A mate and two pups who needed him as much as he needed to go. Miryn’s eyes stayed with him, filled with a quiet ache as she spoke her parting words.</p>
+      <p class="prose">“You are leaving us. Again.”</p>
+      <p class="prose">He did not know what The Call was, but refusing it felt worse than walking into the unknown. It hummed in his ribs. Pulled at his thoughts like a hidden current. Sometimes it felt like a song carried on the first winds of night. Sometimes it felt like the throb of a wound that refused to heal.</p>
+      <p class="prose">He had been raised to follow The Way. His father had taught him that every wolf carried both light and shadow, and that the choices made between them mattered more than strength or rank.</p>
+      <p class="prose">Still, The Way had never said what to do when the path led away from what mattered to him most.</p>
+      <p class="prose">He was not a lone wolf by nature. He hated how his thoughts filled the silence. Before losing his den, he looked after the pups. He was the one who could make an angry pup laugh. The one who stayed with crying pups through the long curls of night so tired mothers could sleep.</p>
+      <p class="prose">He was not the strongest. Not the fastest. But he had heart.</p>
+      <p class="prose">Now that heart felt far behind.</p>
+      <p class="prose">He climbed a narrow ridge in the moonglow, paws slipping on loose shale, his breath floating in small white puffs. When he reached the crest, he looked back. He wanted to see home, but it lay too far, shrouded in black.</p>
+      <p class="prose">His memory filled the dark. Miryn’s grey fur wrapped around the pups. Jax already snoring. Branna pretending she was not awake.</p>
+      <p class="prose">A cold wind snapped at his ruff. He lowered his head.</p>
+      <p class="prose">“Maybe this is wrong,” he said. “Maybe the den would take me back.”</p>
+      <p class="prose">The wind answered with a low wail across the ridge. Stryder closed his eyes. He did not feel chosen. He did not feel brave. He felt like a fool chasing a voice that might not be real.</p>
+      <p class="prose">He drew a deep breath. The Way said that fear should not decide. He must choose his own path. Then he opened his eyes.</p>
+      <p class="prose">A single blue feather drifted down from the high dark. It spiraled slowly, its edges glowing faintly. It touched the ground at his paws and pulsed once, like a heartbeat from another world. Then it faded to black dust.</p>
+      <p class="prose">He stared at the place where it had fallen. He had never seen a feather glow, or anything turn to dust like that. He searched the sky and found only dark clouds, tinged silver with moonlight.</p>
+      <p class="prose">Whatever the feather was, it had not told him where the path would lead. The Call remained, though, quiet and insistent beneath his ribs.</p>
+      <p class="prose">Stryder shivered and stepped west, into the long shadow ahead.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#contents">↑ Contents</a><a href="#chapter-2">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-2" aria-labelledby="chapter-2-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Two</div>
+        <h2 id="chapter-2-title">The Companion</h2>
+      </header>
+      <p class="prose">One morning, just before high sun, Stryder heard falling water. He followed the sound until he could smell the mist.</p>
+      <p class="prose">The stream ran cold from the tall rocks, its water fresh and clear. Stryder crouched low and gulped, each mouthful feeling like it might be his last. Moss clung to the rocks beneath his paws, and for the first time in suns, he felt refreshed.</p>
+      <p class="prose">A voice broke the quiet.</p>
+      <p class="prose">“You drink like one who has known thirst for too long.”</p>
+      <p class="prose">Stryder lifted his head. A shadow stood beyond the trees, tall and motionless, wrapped in dappled light like a foggy memory. His stance was easy, yet ready. A warrior’s posture, softened by long trails.</p>
+      <p class="prose">His fur was striped black and grey, smoke over stone. Worn, tanned hide protected his chest. Stryder noticed the curved sword at his side, but said nothing.</p>
+      <p class="prose">“I am not here to take anything,” the stranger said. “Not your drink. Not your path.”</p>
+      <p class="prose">“Then why stand there?” Stryder asked.</p>
+      <p class="prose">The striped wolf stepped forward, one careful stride at a time, until the light caught his full shape.</p>
+      <p class="prose">Stryder sniffed. No fear scent. No air of deceit.</p>
+      <p class="prose">“I have followed you for a quarter-moon,” the stranger said. “Thought you might notice.”</p>
+      <p class="prose">Stryder frowned. “I did not.”</p>
+      <p class="prose">“You were not meant to.” The wolf’s gaze was steadfast. “You walk like one who carries purpose. I wanted to see if it was real.”</p>
+      <p class="prose">Stryder stood slowly, lean from travel, his bones sharp beneath his fur. His eyes were sunken but bright.</p>
+      <p class="prose">“It is.”</p>
+      <p class="prose">A few heartbeats passed as the water rushed on. The stranger nodded.</p>
+      <p class="prose">“Then I will walk with you.”</p>
+      <p class="prose">“Just like that?” Stryder raised a brow.</p>
+      <p class="prose">“Just like that,” the stranger replied.</p>
+      <p class="prose">“Why?” Stryder asked.</p>
+      <p class="prose">The striped wolf looked toward the waterfall, letting the question settle the way a blacksmith weighs a blade.</p>
+      <p class="prose">“My name is Kalyn,” he said. “I am the last of the Mornshade den. Shadow Wolves broke us. Your kin bowed their heads and let it happen.”</p>
+      <p class="prose">He spoke without anger. A truth cold as water.</p>
+      <p class="prose">Stryder stiffened. “You know my den?”</p>
+      <p class="prose">“I can smell it,” Kalyn said. “Old blood. Ancient ways.”</p>
+      <p class="prose">Stryder shrugged. “The Raylum preach The Way, but it could not help them.”</p>
+      <p class="prose">Kalyn’s ears pricked. “Them? You are not Raylum?”</p>
+      <p class="prose">Stryder hesitated before admitting the truth. “Not anymore. I was in exile with my mate and pups. By the time I learned about the Shadow Wolves, it was too late.”</p>
+      <p class="prose">Stryder looked away. “Not that I could have helped anyway.”</p>
+      <p class="prose">Kalyn considered Stryder’s words while gazing into the stream, before he continued.</p>
+      <p class="prose">“I was a soldier once. Then a speaker of peace. I tried words when the enemy circled, then steel when words failed.” His voice remained calm but heavy.</p>
+      <p class="prose">“You survived,” Stryder said.</p>
+      <p class="prose">“I did. But survival is not life. Not anymore.”</p>
+      <p class="prose">Stryder nodded. He understood. “I make no promises,” he said. “I have no answers. Only The Call I must follow, even if it leads nowhere.”</p>
+      <p class="prose">Kalyn’s mouth curved, thin as a crescent moon. “I do not hear a call. But if you do, it must lead somewhere.”</p>
+      <p class="prose">They stood in silence while the waterfall murmured behind them. Stryder studied Kalyn. He saw in him everything he lacked. Strength. Training. Worldliness. Kalyn could make a worthy companion.</p>
+      <p class="prose">“Let us go, then,” Stryder said.</p>
+      <p class="prose">They did not howl or touch paws. But when they turned and walked side by side, the land felt it. The Call had reached another, and the pack had taken its first shape.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-1">← Previous chapter</a><a href="#chapter-3">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-3" aria-labelledby="chapter-3-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Three</div>
+        <h2 id="chapter-3-title">Song of Amar</h2>
+      </header>
+      <p class="prose">The two wolves traveled as one. Their bond grew fast, strong as root and rock.</p>
+      <p class="prose">They caught the scent of others at times, faint on the wind, but no wolf crossed their path. Not until orange sunfall, when the stream widened into a clear pool.</p>
+      <p class="prose">Kalyn was scouting ahead of Stryder when he saw her. A silver wolf moving through the water, calm and unhurried, glistening in the dying light.</p>
+      <p class="prose">When she climbed from the pool, he turned his gaze aside out of respect. Yet some part of him had already felt her essence. A forgotten song stirred in him. A lyric cut long ago into the bark of his soul. He felt it open like an old scar remembering it once bled.</p>
+      <p class="prose">He bowed. “I am Kalyn. I did not mean to intrude.”</p>
+      <p class="prose">Her voice was soft and clear. “Then you did not. I am Amar.”</p>
+      <p class="prose">“Amar…” Kalyn echoed.</p>
+      <p class="prose">The stream whispered around them. A warm welcome. A gentle warning.</p>
+      <p class="prose">He lifted his head, finding comfort in her sapphire eyes.</p>
+      <p class="prose">“Would you like to walk with us for a while?” he asked.</p>
+      <p class="prose">“Where are you going?” she replied.</p>
+      <p class="prose">Kalyn hesitated. “I am not sure it matters, really. So long as we are together.”</p>
+      <p class="prose">Amar smiled and wrapped herself in a silvery-blue cloak. They found Stryder and fell into step beside him.</p>
+      <p class="prose">Stryder glanced at Amar. Her fur sparkled in the starlight. Something flickered inside him. A moment of longing. A glimmer of… maybe. He thought of Miryn and the pups. Of the life he desperately wanted to return to. The feeling passed, but not without leaving a trace of guilt.</p>
+      <p class="prose">“There is room to walk with us,” he said.</p>
+      <p class="prose">They walked for several suns without saying much. Stryder followed The Call, his mind folded inward. The valley narrowed around them, its shadows deepening as each sun fell. Amar watched him. His silence carried weight. His eyes held sorrow.</p>
+      <p class="prose">One night, beneath a moonless sky, Amar spoke.</p>
+      <p class="prose">“Why were you walking alone before Kalyn found you?”</p>
+      <p class="prose">“No one believed I had heard The Call,” he answered. “They thought it was heresy.”</p>
+      <p class="prose">“And you left them all behind?”</p>
+      <p class="prose">“I was exiled with my mate and pups.” He turned his gaze toward the darkness. “I found a den safe enough for my little family, then I left to follow The Call.”</p>
+      <p class="prose">For a moment the only sound was their pawsteps through the underbrush. Then Stryder asked, “And you? Why were you walking alone?”</p>
+      <p class="prose">Amar looked away. The blue of her cloak seemed to fade into the darkness.</p>
+      <p class="prose">“I was running from a wedding.”</p>
+      <p class="prose">Stryder turned toward her. “Your wedding?”</p>
+      <p class="prose">“Whose else?”</p>
+      <p class="prose">Kalyn glanced at Amar. “What happened?” he asked.</p>
+      <p class="prose">“The vows were prepared. Everyone was waiting,” Amar said with a small smile. “He was kind. Everything a wolf could hope for in a mate. Everyone said we were perfect together.”</p>
+      <p class="prose">“But you did not love him?” Kalyn asked.</p>
+      <p class="prose">“I liked him. That was the trouble. Everyone mistook that for knowing what I wanted.”</p>
+      <p class="prose">Kalyn stepped closer. Amar noticed how his presence made the night feel safer, how his voice could tether the wind when it grew wild.</p>
+      <p class="prose">Nights passed. Amar lingered at the edge of their fire, not fully part of their pack, not fully apart. Sometimes she sang softly, as though no one should hear.</p>
+      <p class="prose">One night, they heard her voice rise above the crackle of the fire.</p>
+      <p class="verse-line"><em>The heart can light a wolf on fire,</em></p>
+      <p class="verse-line"><em>Set their darkest dreams aglow.</em></p>
+      <p class="verse-line"><em>But if only my own desire,</em></p>
+      <p class="verse-line"><em>Made its deepest longing known.</em></p>
+      <p class="verse-line"><em>There are hills I have never climbed,</em></p>
+      <p class="verse-line"><em>There are paths no paw has traced.</em></p>
+      <p class="verse-line"><em>There are songs I have yet to sing,</em></p>
+      <p class="verse-line"><em>Passions I have yet to chase.</em></p>
+      <p class="verse-line"><em>Let me wander. Let me breathe.</em></p>
+      <p class="verse-line"><em>Let me feel the land I roam.</em></p>
+      <p class="verse-line"><em>My heart belongs to only me,</em></p>
+      <p class="verse-line"><em>And the one who feels like home.</em></p>
+      <p class="prose">The song faded into the night. Kalyn watched the firelight dance in her eyes. He had never heard a voice quite like hers. Each lyric pulled at him, and the word “home” sent tingles through his fur. He could feel the longing, sadness, uncertainty and even determination in her voice.</p>
+      <p class="prose">They heard her sing again on other nights. Each time, the sound seemed to settle over the forest, leaving the world quieter when it ended.</p>
+      <p class="prose">She asked questions. About The Call. About The Way. About Stryder.</p>
+      <p class="prose">He would answer plainly. He spoke like one who had stopped pretending to know. What struck Amar most was not certainty, but honesty. He made no promises. He simply kept walking.</p>
+      <p class="prose">One morning, with mist clinging to the valley, Amar rose and walked with Stryder while Kalyn kept watch.</p>
+      <p class="prose">“Do you believe The Call will lead you somewhere?” she asked.</p>
+      <p class="prose">“I believe it is leading me somewhere.”</p>
+      <p class="prose">“Do you know where?”</p>
+      <p class="prose">“No.”</p>
+      <p class="prose">She studied him. “And you keep going?”</p>
+      <p class="prose">“I have to.”</p>
+      <p class="prose">Stryder looked west. He felt the familiar pull beneath his ribs. He thought of Miryn again, and wondered how long it would be before he saw her face.</p>
+      <p class="prose">Amar walked beside him without speaking. Her gaze wandered across the valley. Stryder wondered what she was thinking, but did not ask.</p>
+      <p class="prose">That night she returned to Kalyn. Her head rested on his shoulder, as if it had always belonged there.</p>
+      <p class="prose">“I will walk with Stryder,” she said softly. “Not because I believe in him, but because he does not ask me to follow.”</p>
+      <p class="prose">Kalyn nodded once. He never claimed her. He simply remained.</p>
+      <p class="prose">She had not been led into a future someone else had chosen. She had discovered a path and decided to walk it. So she stayed.</p>
+      <p class="prose">By choice.</p>
+      <p class="prose">And choice is the first step on The Way.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-2">← Previous chapter</a><a href="#chapter-4">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-4" aria-labelledby="chapter-4-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Four</div>
+        <h2 id="chapter-4-title">Lokan’s Run</h2>
+      </header>
+      <p class="prose">The stillness broke under a single heartbeat when Lokan arrived.</p>
+      <p class="prose">He was the silhouette on the ridge. The growl in the wind. The scab that refused to stay closed.</p>
+      <p class="prose">His fur was sable streaked with ash, his body lean and scar-marked from muzzle to flank. A wolf carved by adversity and kept alive by spite. His heavy-lidded eyes were mismatched. One burned amber gold, the other sank into a murky hazel. His cloak was dirty and torn.</p>
+      <p class="prose">He did not approach at first. He circled wide and measured the pack, then leapt from the darkness without warning.</p>
+      <p class="prose">“Well now,” he barked, tail snapping like a whip. “Why so solemn, my star-crossed wanderers?”</p>
+      <p class="prose">He grinned wide enough to show every tooth. “Come on. Run with Lokan! Run like the moon is falling and we’re the last wolves left to witness it.”</p>
+      <p class="prose">Amar laughed, bright as a flint spark.</p>
+      <p class="prose">Kalyn did not. But something in Lokan’s wild gaze tugged at the part of him that needed release. The part that wanted, for one breath, to stop carrying ghosts.</p>
+      <p class="prose">Desire surged. Duty slipped. Amar and Kalyn ran with Lokan. Stryder, wary of the uninvited guest, trailed behind.</p>
+      <p class="prose">Kalyn and Amar laughed for no reason as they ran under the crescent moon. They barely felt their paws strike soil. The forest blurred to streak and shimmer.</p>
+      <p class="prose">Laughter thinned. Awe opened. Kalyn called out over the rush, “Lokan! Where are you taking us?”</p>
+      <p class="prose">Lokan looked back. His smile stretched too far. His eyes were no longer hazel or amber gold. They were void black.</p>
+      <p class="prose">The forest twisted. Trees bent wrong. The ground thinned beneath their paws. The sky spilled into spirals that made the breath hitch in their throats.</p>
+      <p class="prose">Kalyn slowed, hackles rising. “Something is wrong.” From between the birches, fog crept like a pack of hunters.</p>
+      <p class="prose">The night shifted. They broke from the treeline and climbed onto a jagged cliff. Moonlight spilled in pale rivers. Shade pooled across stone. The air thickened.</p>
+      <p class="prose">Lokan was gone. A large black wolf waited where he should have been. Shadow wrapped in shadow. A shape that swallowed light and reason.</p>
+      <p class="prose">Eyes burning red, it spoke to Kalyn through a mouth that never moved.</p>
+      <p class="voice-line"><em>You run so well, Kalyn. So noble. So proud. Why not run straight through me?</em></p>
+      <p class="prose">The sound brushed across the rocks like cold breath on the neck. Kalyn stepped forward, teeth bared, every fiber of him ready to break or be broken.</p>
+      <p class="prose">“Stay behind me,” he told Amar. But she was right in front of him, obscured from his vision by the ominous black wolf.</p>
+      <p class="prose">“Kalyn, no,” she breathed. “What are you doing?”</p>
+      <p class="prose">Stryder had climbed the cliff and approached Kalyn from behind. He did not see Lokan or a black wolf, just Kalyn with raised fur, growling at Amar. He tried to step between them, but Kalyn was already moving.</p>
+      <p class="prose">The protector. The warrior. The last of his den.</p>
+      <p class="prose">Kalyn lunged. The black wolf dissolved from his vision. Mist in an instant. Smoke slipped through Kalyn’s teeth. Momentum betrayed him. He barreled forward, straight at Amar.</p>
+      <p class="prose">Her eyes widened. Confusion turned to fear. She stepped back. The cliff shifted beneath her paws. The ground crumbled.</p>
+      <p class="prose">She fell.</p>
+      <p class="prose">Time cracked open. A white blur dropped from above.</p>
+      <p class="prose">Stryder.</p>
+      <p class="prose">He dove like a falling star. His jaws caught Amar’s scruff. His claws bit stone. Bones screamed. His jaw came near to breaking.</p>
+      <p class="prose">But he held.</p>
+      <p class="prose">Kalyn skidded to the ledge, terror crushing his breath. “Amar!”</p>
+      <p class="prose">Slowly, Stryder pulled her back. Not with strength alone, but with a quiet fury that refused to let the world take one more thing.</p>
+      <p class="prose">They collapsed on the ground, breathing hard.</p>
+      <p class="prose">Alive.</p>
+      <p class="prose">Kalyn stared. At Stryder’s bloodied paws. At Amar shaking in the moonlight. At his own paws trembling on the rock.</p>
+      <p class="prose">No one spoke. Not for a long howl.</p>
+      <p class="prose">The black wolf had faded, but his chill still clung to Kalyn’s fur. Kalyn turned away from the edge and walked into the dark without looking back.</p>
+      <p class="prose">“Kalyn,” Amar called. “Wait!”</p>
+      <p class="prose">He did not. He could only think of what might have happened to Amar if he had drawn his sword. Or if Stryder had not been there to catch her.</p>
+      <p class="prose">He walked alone until he could summon the courage to return to the pack.</p>
+      <p class="prose">Stryder sat beside Amar. They watched the moon sink. The cold poured over them like regret.</p>
+      <p class="prose">Amar whispered, “I do not know who to trust anymore.”</p>
+      <p class="prose">Stryder thought for a breath before he answered.</p>
+      <p class="prose">“Trust in The Way.”</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-3">← Previous chapter</a><a href="#chapter-5">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-5" aria-labelledby="chapter-5-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Five</div>
+        <h2 id="chapter-5-title">Hollowrest</h2>
+      </header>
+      <p class="prose">They walked for suns in a fragile hush no one wanted to break.</p>
+      <p class="prose">Amar kept her distance. Kalyn kept his shame. Stryder kept them moving. Step by step. Breath by breath.</p>
+      <p class="prose">The land softened as they drifted west. Hill grass grew thick. Warm wind carried mint, then something smoky and savory.</p>
+      <p class="prose">Cooked meat.</p>
+      <p class="prose">Amar lifted her nose. “You smell that?”</p>
+      <p class="prose">Kalyn nodded. “Stew. Spiced.”</p>
+      <p class="prose">Stryder said nothing. He only shifted his trail toward the falling sun, toward the scent.</p>
+      <p class="prose">They descended a narrow ridge path marked with old rocks. Trees parted to reveal mossy dens dug into the hills. Smoke curled from small chimneys. Lanterns swayed in the breeze.</p>
+      <p class="prose">Hollowrest.</p>
+      <p class="prose">The village huddled between two valleys, a woven wall of timber guarding its heart. Inside, life pulsed. Voices chattered and cracked like bark under frost. Children yipped. Merchants haggled.</p>
+      <p class="prose">The air was cruelly seasoned. Stryder’s belly growled. Kalyn’s followed.</p>
+      <p class="prose">Amar smirked. “Wolves of legend. Felled by soup.”</p>
+      <p class="prose">They slipped along the outer stalls. An old wolf with earrings stirred a great iron pot, steam rolling off it like morning fog over river rock. Nearby, a young weaver sang as she worked her wheel, the thread dark and thick as vine.</p>
+      <p class="prose">Kalyn checked his pouch. Empty.</p>
+      <p class="prose">Stryder shook his head. “Nothing to barter.”</p>
+      <p class="prose">Amar studied her claws. “We could charm someone.”</p>
+      <p class="prose">Kalyn grunted. “We could eat someone.”</p>
+      <p class="prose">They followed their snouts. By sunfall, they reached the gate. A line stretched beneath sagging banners. Two tall guards stood watch, dressed in layered hide dyed deep green, with bark plates strapped to their shoulders. Their eyes were tired and sharp.</p>
+      <p class="prose">A red-furred merchant approached the gate ahead of them.</p>
+      <p class="prose">“Name. Origin. Intent,” the larger guard said.</p>
+      <p class="prose">“Rulfin of Reedmere. Just trading spices. I swear on my mother’s tail.”</p>
+      <p class="prose">“Declare your wares,” said the smaller guard.</p>
+      <p class="prose">“Juniper, nutmeg, clove, dried rosehips…”</p>
+      <p class="prose">“All right. Move along,” the larger guard said, opening the gate.</p>
+      <p class="prose">The merchant slipped past, muttering about village wolves with bark up their butts.</p>
+      <p class="prose">When it was their turn, Stryder stepped forward.</p>
+      <p class="prose">The larger guard’s eyes narrowed. “Name?”</p>
+      <p class="prose">“Stryder.”</p>
+      <p class="prose">“Origin?”</p>
+      <p class="prose">Stryder hesitated. “None you would know.”</p>
+      <p class="prose">“Intent?”</p>
+      <p class="prose">“To pass through.”</p>
+      <p class="prose">The guard’s brow creased. “Not trading? Not seeking kin?”</p>
+      <p class="prose">“I have no kin here.”</p>
+      <p class="prose">The smaller guard pointed at Kalyn. “And you?”</p>
+      <p class="prose">“Kalyn. Last of the Mornshade den.”</p>
+      <p class="prose">A flicker of recognition. The name still carried thunder.</p>
+      <p class="prose">“And her?” the smaller guard continued.</p>
+      <p class="prose">Amar smiled sweetly. “Amar. I go where I choose.”</p>
+      <p class="prose">The guards did not smile back.</p>
+      <p class="prose">“Three wanderers. No coin. No kin. No answer worth trusting,” the larger guard said. “To enter Hollowrest, beggars face the Matriarch’s circle. That is the law.”</p>
+      <p class="prose">Stryder’s muscles tightened. He had faced a council before.</p>
+      <p class="prose">“Ask your questions.”</p>
+      <p class="prose">“Not here. The holding tent,” the larger guard said flatly.</p>
+      <p class="prose">Kalyn growled low. Amar rolled her eyes.</p>
+      <p class="prose">“Wonderful. I am sure this will go well.” She sighed.</p>
+      <p class="prose">“Everything will be fine, so long as your steel stays sheathed,” the larger guard said, eyeing Kalyn’s sword.</p>
+      <p class="prose">“It wouldn’t do you any good anyway!” The smaller guard cackled.</p>
+      <p class="prose">Both guards ushered the pack through the gate. Past the smell of stew, past laughter, past a warmth they had not known in many moons.</p>
+      <p class="prose">The holding tent crouched near the wall, its hide roughly stitched together. The guards pulled back the flap and ordered them inside.</p>
+      <p class="prose">“Get in. Wait until you are called. Speak plain. Do not lie,” the larger guard ordered.</p>
+      <p class="prose">They entered. Stryder glanced back at the guards.</p>
+      <p class="prose">“Truth is stronger than lies,” he called. The guards dropped the flap and left in a huff.</p>
+      <p class="prose">Torchlight streamed through seams in the tent hides. Red and dusty, it flickered across the inner walls. The air hummed with fear left behind by wolves who had waited here before.</p>
+      <p class="prose">They were not alone.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-4">← Previous chapter</a><a href="#chapter-6">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-6" aria-labelledby="chapter-6-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Six</div>
+        <h2 id="chapter-6-title">The Champion</h2>
+      </header>
+      <p class="prose">A shaking wolf hunched in the back. Grey fur. Thin frame. Twitching eyes. Mud had dried along his ribs like cracked clay. A fresh gash split his muzzle. His tail flicked with a stubborn spark he had not yet lost.</p>
+      <p class="prose">“They will ask,” he whispered. “They always ask. And if you do not answer their way, they make you choose. But the choice is a lie.”</p>
+      <p class="prose">Amar stepped toward him. “What happens when you say no?”</p>
+      <p class="prose">The grey wolf never answered. The guards returned, silent and strong. They lifted him by his front legs and dragged him howling into the night.</p>
+      <p class="prose">His cries fell on merciless ears.</p>
+      <p class="prose">Peeking through the hide flap, the trio watched as the guards dragged the hapless grey wolf to the torchlit village center. A scorched metal cage rose from a ring of rock. Villagers gathered in a rough circle, their breath thick in the cold air.</p>
+      <p class="prose">An old wolf sat on a carved seat, a paw-woven shawl heavy on her gaunt frame. Beside her rested a mountain of black fur and iron.</p>
+      <p class="prose">The Champion of Hollowrest.</p>
+      <p class="prose">Kalyn’s fur rose.</p>
+      <p class="prose">“This is not a village,” he said softly. “It is an arena.”</p>
+      <p class="prose">The crowd fell silent. The Matriarch spoke, her thin voice slicing through the air like an arrow. “Fenn of Blackroot. You refused the test. You refused the duel. You refused to bend or stand. What remains for you?”</p>
+      <p class="prose">The grey wolf spat blood. “You think this is honor? You hide under a false choice and call it order.”</p>
+      <p class="prose">The Champion rose. Metal rings clinked. Chains pulled against a collar of black hide. His presence filled the circle.</p>
+      <p class="prose">Fenn tried again. “It was not like this before! Ever since the Shadow Wolves…” But the last word broke inside him when the Champion attacked.</p>
+      <p class="prose">One leap. One strike.</p>
+      <p class="prose">One heartbeat stopped.</p>
+      <p class="prose">The crowd roared.</p>
+      <p class="prose">Stryder turned from the sight, the tent hide trembling in his paws.</p>
+      <p class="prose">Amar stared into empty space. “So that is the choice.”</p>
+      <p class="prose">Kalyn’s voice dropped. “And that is the cost.”</p>
+      <p class="prose">The guards dragged Fenn’s limp body away, then returned to the holding tent.</p>
+      <p class="prose">“You three. Come,” the larger guard commanded. No hesitation. No warmth.</p>
+      <p class="prose">Stryder bristled. “You have not questioned us!”</p>
+      <p class="prose">“No questions,” the smaller guard replied.</p>
+      <p class="prose">They were herded into the cage. The floor was packed with soil and blood. Shadows danced across the wolves in the flickering torchlight.</p>
+      <p class="prose">The villagers shifted, hungry for the next moment. Hungry for more than stew and simple suns.</p>
+      <p class="prose">The Matriarch watched the three as if measuring the strength of their spirits.</p>
+      <p class="prose">“You come with no coin. No kin. No pack. Yet you want food. And shelter. And safe passage.” She let the words settle.</p>
+      <p class="prose">“Hollowrest trades in deeds.” She raised her paw.</p>
+      <p class="prose">The Champion stepped forward, a large, worn battle axe strapped to his back. A wolf forged for one purpose.</p>
+      <p class="prose">“You want a place at our fire,” the Matriarch said. “Then earn it. You win, you eat. You win, you rest. You win, and Hollowrest honors your victory for ages.”</p>
+      <p class="prose">Her voice dropped. “Lose, and no one remembers your names.”</p>
+      <p class="prose">Amar lifted her chin. “And if we refuse?”</p>
+      <p class="prose">The Matriarch looked at the blood beneath their paws, then back to their faces. “Refusal is a path too. You have seen where it ends.”</p>
+      <p class="prose">Stryder looked at his pack. Kalyn bared his fangs. Amar’s eyes caught the light, fierce and bright.</p>
+      <p class="prose">Stryder answered for all of them. “We fight.”</p>
+      <p class="prose">The crowd cheered, with bare teeth and belligerent eyes. A chant rose.</p>
+      <p class="prose">“Vyrex. Vyrex! VYREX!”</p>
+      <p class="prose">The Champion was vast, with shoulders like boulders. His fangs were worn by age, yet sharpened by use. Scars crossed his fur like spiderwebs. His eyes were weary with endurance.</p>
+      <p class="prose">The eyes of a wolf who had forgotten how to rest.</p>
+      <p class="prose">Kalyn stepped forward. He did not draw his blade. He did not want to provoke Vyrex into using that axe.</p>
+      <p class="prose">He launched himself at the Champion. The impact shook the cage. Flesh struck flesh. Bone jolted bone.</p>
+      <p class="prose">Vyrex barely shifted.</p>
+      <p class="prose">Kalyn spun back. Vyrex moved fast as a snap. A heavy forepaw crashed into Kalyn’s ribs and drove him to the dirt.</p>
+      <p class="prose">Kalyn rolled, coughed, then struggled back onto his paws, shaking.</p>
+      <p class="prose">“Stay behind me,” he barked.</p>
+      <p class="prose">But Amar was already in motion. She tried to flank Vyrex. He kicked with a powerful hind leg. Amar dodged. Almost. The blow struck hard enough to throw her back into Kalyn.</p>
+      <p class="prose">Stryder moved in low, calm and studied, aiming for the Champion’s legs.</p>
+      <p class="prose">“Not that!” Kalyn warned.</p>
+      <p class="prose">Too late.</p>
+      <p class="prose">Vyrex lunged. One great paw pinned Stryder to the dirt.</p>
+      <p class="prose">Kalyn staggered forward again, blood in his mouth, ribs cracked, legs trembling. But when he spoke, his voice carried authority.</p>
+      <p class="prose">“Enough!”</p>
+      <p class="prose">Vyrex froze, teeth parted. Kalyn made no move to attack.</p>
+      <p class="prose">“You are not their champion,” Kalyn said, his voice raw. “You are their prisoner.”</p>
+      <p class="prose">Vyrex blinked. A torn ear twitched.</p>
+      <p class="prose">“They worship your strength, yet they chain you with it,” Kalyn said. “Every duel. Every kill. It keeps you here. Angry. Alone.”</p>
+      <p class="prose">The crowd howled. Paws hammered the dirt. Voices begged for blood.</p>
+      <p class="prose">Vyrex looked to the Matriarch. She gave a single nod. A command to end this.</p>
+      <p class="prose">But Kalyn continued.</p>
+      <p class="prose">“Your strength is real. So is your pain. I know that dark place. I lived in it. You think pain makes you unworthy. It does not.”</p>
+      <p class="prose">Vyrex growled. “Pain is all I know.”</p>
+      <p class="prose">“And still you hold back,” Kalyn replied.</p>
+      <p class="prose">Vyrex released Stryder. He snarled and paced, but did not strike. Stryder crawled behind Kalyn and Amar to steady his panting.</p>
+      <p class="prose">“You do not have to walk alone anymore,” Kalyn said. “The Way is wide enough for your shadow.”</p>
+      <p class="prose">Stryder stood on shaking legs and stepped beside Kalyn. “Pain means you survived. That is all.”</p>
+      <p class="prose">The crowd shouted louder. Teeth snapped in the air. Someone threw a bone.</p>
+      <p class="prose">Vyrex stood in the center of the cage, breathing hard, torchlight rippling across his scars. A lone wolf in a ring of violence.</p>
+      <p class="prose">Then he did the one thing the village never expected.</p>
+      <p class="prose">He stood tall and roared. The ground shook. His shoulders rose. His chest heaved. Power rolled off him like storm wind across a high ridge.</p>
+      <p class="prose">Kalyn braced. Amar held her breath. Stryder closed his eyes.</p>
+      <p class="prose">But Vyrex faced the crowd.</p>
+      <p class="prose">“You call this a village! You call this a life! I fought for you. Bled for you. Always you hunger for more!”</p>
+      <p class="prose">Silence fell. Vyrex faced the trio.</p>
+      <p class="prose">“FOLLOW ME!” he shouted.</p>
+      <p class="prose">He pulled the chains tight until they snapped. Then he charged.</p>
+      <p class="prose">Straight through the cage door. It smashed open and dangled on its remaining hinge.</p>
+      <p class="prose">Through the guards. They scattered like loose leaves in a strong wind.</p>
+      <p class="prose">Through the crowd. Some dove aside, some froze, some cried out as he tore past.</p>
+      <p class="prose">Through the back gate. It splintered like dry bark.</p>
+      <p class="prose">The pack followed.</p>
+      <p class="prose">Kalyn. Limping. Alive.</p>
+      <p class="prose">Amar. Teeth bare. Heart racing.</p>
+      <p class="prose">Stryder. Watching the path behind. Waiting for the chase.</p>
+      <p class="prose">Chaos bloomed in Hollowrest. Alarms rang. Voices soared. But the village wolves were too stunned to pursue.</p>
+      <p class="prose">Still, they ran. They ran until the world widened again. Behind them, Hollowrest learned what happens when a caged champion chooses his own path.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-5">← Previous chapter</a><a href="#chapter-7">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-7" aria-labelledby="chapter-7-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Seven</div>
+        <h2 id="chapter-7-title">Madness</h2>
+      </header>
+      <p class="prose">The pack climbed a cold mountain pass.</p>
+      <p class="prose">Kalyn was broken. Each breath struck his ribs like a dull spear. A shooting twinge in his side warned him the crack had widened. His body no longer moved with a warrior’s instinct. It dragged itself forward.</p>
+      <p class="prose">Vyrex was worse.</p>
+      <p class="prose">He did not limp. He did not wince. He did not speak.</p>
+      <p class="prose">At first, they thought it was silence. Silence still has weight.</p>
+      <p class="prose">This was absence.</p>
+      <p class="prose">Vyrex did not see the trees or the sky. He did not see the pack. He saw nothing at all. And no one blamed him.</p>
+      <p class="prose">He had spilled blood that did not deserve spilling. He had obeyed when he should have risen. Freedom was his last act, but the breath before it still lived inside him. Every old fight clung to him like mud. His spirit carried the weight of them all.</p>
+      <p class="prose">The pack was cold and hungry. Their paws left streaks of red across the frost.</p>
+      <p class="prose">The forest thinned to brittle brush and bony trees. The sky pressed down without color. The Way felt lost, as if it had slipped past them during the climb.</p>
+      <p class="prose">That night, Kalyn collapsed before the fire was built.</p>
+      <p class="prose">Amar curled beside him, her touch soft as a pup’s coat. Stryder coaxed a weak flame to life. Vyrex did not lie down. He sat, staring at nothing.</p>
+      <p class="prose">No one spoke of food. No one had the strength. They listened to every heartbeat, every creak in the dark.</p>
+      <p class="prose">Howls drifted through the woods. Hunters, most likely searching for them.</p>
+      <p class="prose">Stryder stayed awake, watching shadows and counting breaths.</p>
+      <p class="prose">Then came laughter. Not cruel. Not joyful. Just amused. Wrong in the frost.</p>
+      <p class="prose">Their heads lifted. Their hackles rose.</p>
+      <p class="prose">A warm flicker moved between the trees. The crackle of flame. The scent of spice.</p>
+      <p class="prose">And there he was.</p>
+      <p class="prose">Lokan.</p>
+      <p class="prose">Tattered cloak. Mismatched eyes. Crooked smile.</p>
+      <p class="prose">“Well, look at this,” he said, tossing a twig into the fire. “The ghosts of Hollowrest.</p>
+      <p class="prose">“You all look like chewed jerky.”</p>
+      <p class="prose">Kalyn growled. “Turn around. Now.”</p>
+      <p class="prose">Vyrex stood, a storm with hollow eyes. “I do not care who you are. I will bury you where you stand.”</p>
+      <p class="prose">Lokan lifted a brow. “Interesting offer. I’ve been buried before.</p>
+      <p class="prose">“Didn’t care for it.”</p>
+      <p class="prose">He grinned and fed the fire. Flames leapt high. The warmth reached the pack like an invitation.</p>
+      <p class="prose">Hunger and cold silenced caution. Their legs betrayed them.</p>
+      <p class="prose">Stryder sat first, quiet and tense. Amar followed, eyes narrowed. Kalyn resisted, then dropped beside them with a low growl.</p>
+      <p class="prose">Even Vyrex sat. Not close. Just near enough for warmth.</p>
+      <p class="prose">“This fire,” Lokan said, “costs nothing tonight. Maybe nothing ever. Maybe everything.</p>
+      <p class="prose">“We will see.”</p>
+      <p class="prose">They did not answer. But they stayed.</p>
+      <p class="prose">That was the first night. The fire returned the next, and the next.</p>
+      <p class="prose">Lokan stayed without saying he would. He simply existed. Like fog.</p>
+      <p class="prose">Howls echoed through the forest, but the pack stopped flinching.</p>
+      <p class="prose">Lokan told stories that made no sense. He sang songs without melody. He ran through moonlight and dared them to follow.</p>
+      <p class="prose">Sometimes they did. They chased illusions. They played. They ran. They forgot.</p>
+      <p class="prose">Other nights, they remembered too much. They cried. They raged. No one judged. There was no shame by the fire.</p>
+      <p class="prose">A moon passed, then another. The pack huddled through winter storms and ran beneath starlit skies.</p>
+      <p class="prose">Kalyn stopped wincing. Vyrex slept again. Lightly, but for real. Amar smiled more.</p>
+      <p class="prose">Stryder hummed as he walked, a soft rhythm, as if The Way had begun pulsing through him.</p>
+      <p class="prose">Then came the moment they forgot why they were running.</p>
+      <p class="prose">Kalyn blinked. His legs moved without command. Mist curled around him like a shadow. The world blurred. Colors streaked past like a rainbow tunnel.</p>
+      <p class="prose">Stryder ran beside him, moon-eyed.</p>
+      <p class="prose">“Kalyn,” he said. “Stop.</p>
+      <p class="prose">“We have to stop running!”</p>
+      <p class="prose">Kalyn dug in. His paws skidded. He stilled. The world jolted. The air rippled like disturbed water.</p>
+      <p class="prose">He looked around, panting. “Where is Amar? Where is Vyrex?”</p>
+      <p class="prose">“I do not know,” Stryder breathed. “I thought they were with us.”</p>
+      <p class="prose">Fog surrounded them, deep and endless. The fire was gone. The laughter was gone. Even the distant hunters were gone.</p>
+      <p class="prose">No trail. No scent. No sky.</p>
+      <p class="prose">Only the dark.</p>
+      <p class="prose">“We are off The Way,” Stryder said. “Far off.”</p>
+      <p class="prose">They searched through the fog, hoping for a familiar sight. A scent. Anything.</p>
+      <p class="prose">Finally, a howl cut through the dark. Long. Hollow. A single voice.</p>
+      <p class="prose">Kalyn lifted his head. He knew it.</p>
+      <p class="prose">Amar.</p>
+      <p class="prose">It was a cry for help.</p>
+      <p class="prose">They sniffed the frantic air. Snow died into soot beneath their paws. Kalyn and Stryder slipped through the black like ghosts hunting their own trail.</p>
+      <p class="prose">A bent stem here. A crushed needle there. A thin ribbon of sweet musk on the wind.</p>
+      <p class="prose">Kalyn froze. The scent hit him like lightning.</p>
+      <p class="voice-line"><em>Amar!</em></p>
+      <p class="prose">Then her call tore through the trees. “Kalyn! Where are you?”</p>
+      <p class="prose">His answer escaped in a full howl. “On my way!”</p>
+      <p class="prose">His body moved before thought could rise. The pain was gone. Only the chase remained.</p>
+      <p class="prose">Stryder ran behind him, eyes reflecting the moonlight.</p>
+      <p class="prose">They found Amar at the bottom of a hill. She lay fallen, breathing fast. Her fur streaked with ash as if she had run through fire.</p>
+      <p class="prose">Her eyes opened when Kalyn touched her.</p>
+      <p class="prose">“He is going to kill him.”</p>
+      <p class="prose">Stryder stepped closer. “Who?”</p>
+      <p class="prose">But they all knew.</p>
+      <p class="prose">Elsewhere, the forest screamed.</p>
+      <p class="prose">Lokan burned through the trees in a wild dance, flame curling around his paws, his laughter cutting like jagged rocks. Every step a spark. Every spark a dare.</p>
+      <p class="prose">Vyrex thundered behind him, a great mass of smoke and fire, fangs gleaming, eyes blazing with ancient anger. His stride cracked stone. His breath steamed. The flames fed him. Rage steered him.</p>
+      <p class="prose">“Come back!” Vyrex roared, shaking the branches. “You will burn like the rest!”</p>
+      <p class="prose">Lokan only grinned and vanished deeper into the dark. Always a flicker ahead. A heartbeat out of reach.</p>
+      <p class="prose">The forest became a ring of smoke and madness.</p>
+      <p class="prose">Vyrex did not care. He ran harder, past the point where reason died. If he must be the nightmare they feared, then let the world burn. Let the trees fall. Let the last moon sink.</p>
+      <p class="prose">Then came a sound.</p>
+      <p class="prose">Not fire. Not laughter. Not rage.</p>
+      <p class="prose">Song.</p>
+      <p class="prose">Soft as night snow. Old as light.</p>
+      <p class="verse-line"><em>Hush now, shadows sleep.</em></p>
+      <p class="prose">It cut through him like a sunbeam through storm clouds.</p>
+      <p class="verse-line"><em>The moon still guards the deep.</em></p>
+      <p class="prose">His fire loosened. His breath broke. Each note pulled him backward in time. Before cages. Before blood. Before he forgot the shape of peace.</p>
+      <p class="verse-line"><em>Let your heavy heart be still.</em></p>
+      <p class="prose">He fell to the ground. Ash stirred around him like low fog.</p>
+      <p class="verse-line"><em>You are not alone.</em></p>
+      <p class="prose">Steam hissed from his fur. Fire slumped into embers. His heart beat slowly.</p>
+      <p class="prose">Lokan was gone. Only cinders marked his path.</p>
+      <p class="prose">Smoke drifted aside, and Amar stepped through it. Her voice cracked, but she held the song until the last note fell. Kalyn stood beside her, Stryder on the other side.</p>
+      <p class="prose">Vyrex stared at them. Ash clung to him. Fire had scarred a bright map across his hide. His eyes still held the last wild scraps of fury.</p>
+      <p class="prose">But they did not fear him. They came for him.</p>
+      <p class="prose">That was the moment. Not when the fire died. Not when the madness faded. But when he saw their hearts and realized he still had one of his own.</p>
+      <p class="prose">He was not a monster. Not a champion.</p>
+      <p class="prose">He was a wolf.</p>
+      <p class="prose">And he was no longer alone.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-6">← Previous chapter</a><a href="#chapter-8">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-8" aria-labelledby="chapter-8-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Eight</div>
+        <h2 id="chapter-8-title">The Order</h2>
+      </header>
+      <p class="prose">The wind died like breath smothered in frost.</p>
+      <p class="prose">The pack traversed the mountain pass, four shadows whispering through the grey hush. Ash clung to bark and soil and fur. The air tasted burnt.</p>
+      <p class="prose">It was too quiet.</p>
+      <p class="prose">No wingbeats. No skitter. No cackle of branch against branch. Only a stillness that felt like held breath.</p>
+      <p class="prose">Vyrex lifted his muzzle. “We have company.”</p>
+      <p class="prose">Kalyn kept his eyes forward. “They have been with us since first light.”</p>
+      <p class="prose">Stryder’s hackles rose. “They want us afraid.” He swallowed hard, bracing for the trap.</p>
+      <p class="prose">The strike came as sound. A sharp, metallic bang, like a cage slamming shut.</p>
+      <p class="prose">Figures erupted from the ash trees, cloaked in pelts, armored in metal, eyes glowing beneath ritual helms. They moved as one. No hesitation. No heartbeat out of place.</p>
+      <p class="prose">The Order.</p>
+      <p class="prose">They did not draw blades. They did not posture. They arrived like the final word of a sentence already written.</p>
+      <p class="prose">One stepped forward. A tall wolf silvered by age. His presence was immovable as iron, his robes bearing the sigils of The Order. Around his neck hung a cord of stun thorns, enough to drop a giant.</p>
+      <p class="prose">“By decree of the High Council,” he said, “you are taken for judgment.”</p>
+      <p class="prose">Amar stomped her paw. “Judgment for what? We saved the forest. We saved him.” She nodded toward Vyrex.</p>
+      <p class="prose">Vyrex growled low. Kalyn blocked him with a shoulder.</p>
+      <p class="prose">Another wolf emerged, broad and armored in soot-dark steel, his voice ground from rock. “You ran with the trickster.”</p>
+      <p class="prose">A lean one followed, eyes like cold moons, spiral scars on his muzzle. “You burned protected ground.”</p>
+      <p class="prose">A fourth appeared behind the pack, cloaked in ceremonial cloth, tail wrapped in bone rings. “You raised tooth against wolf.”</p>
+      <p class="prose">Then a fifth. Tall. Quiet. Wrapped in dark fur. He did not look directly at them as he spoke.</p>
+      <p class="prose">“You lost The Way.”</p>
+      <p class="prose">No anger in their voices. Only doctrine. Judgment carved long before this moment.</p>
+      <p class="prose">Vyrex trembled, his breath heavy. “I will kill them.”</p>
+      <p class="prose">“No.” Kalyn’s voice was low. “Not them.”</p>
+      <p class="prose">Chains grew from the soil, spirit iron forged from vow and punishment. Not metal. Not mortal. They wound around the pack like living vines.</p>
+      <p class="prose">Stryder did not pull away. Amar stayed still. Even Vyrex held himself. Not calm. Not quiet. But contained.</p>
+      <p class="prose">They were tired down to the bone.</p>
+      <p class="prose">“We did what had to be done,” Stryder said.</p>
+      <p class="prose">“Then speak your truth,” the silvered wolf answered. “Before The Twins.”</p>
+      <p class="prose">They were driven to an opening in the mountain. Above the threshold, carved in the ancient tongue, appeared the words:</p>
+      <p class="inscription"><strong>The Hall of Adjudication</strong></p>
+      <p class="prose">They entered. Enchanted pillars of obsidian lined the corridor. Their faint glow could not brighten the locked cells they passed on the way to the inner door.</p>
+      <p class="prose">Inside, they were stripped of gear. Paws printed. Processed.</p>
+      <p class="prose">Then fed.</p>
+      <p class="prose">Not a feast. Not kindness. But real food. Warm meat. Softened roots. Clean water. Enough to quiet the howl in their bellies.</p>
+      <p class="prose">They ate in silence. Only the clink of chains against metal bowls. Breath between bites. Hunger doing all the speaking.</p>
+      <p class="prose">Vyrex finished first. He gazed into his empty bowl as though looking in a mirror.</p>
+      <p class="prose">The stillness after the meal settled like low fog. Each moment stretched before them.</p>
+      <p class="prose">Then came the summons.</p>
+      <p class="prose">The spirit chains tugged with an invisible pull, leading the pack through a corridor lit by living rock. Obsidian veins buzzed with black light, as if the mountain itself were watching.</p>
+      <p class="prose">They entered a chamber carved in the shape of an eye. A single window of polished crystal gazed down at them. The sky above held only feathery clouds. Below, an onyx dais curved like a crescent fang.</p>
+      <p class="prose">The stone floor was worn smooth by centuries of truth laid bare.</p>
+      <p class="prose">Along one side of the chamber sat the distinguished wolves of the High Council, gathered in their places beneath the crystal window. Around the remaining walls, a gallery had filled with wolves from nearby dens.</p>
+      <p class="prose">Some had smelled the smoke of Vyrex’s fire. Others had heard of four strangers arrested and brought before the Tribunal. Word had traveled swiftly, passing from den to den, carried by runners, travelers, and even birds that crossed the open sky.</p>
+      <p class="prose">Now the curious had gathered to see the strangers for themselves.</p>
+      <p class="prose">At the far end sat The Twins. Solin and Noctra.</p>
+      <p class="prose">Wolves sculpted as opposites. Equal pillars of balance. Judges of The Way.</p>
+      <p class="prose">Solin was pale as untouched snow under a low moon. Her eyes stayed closed, yet every wolf felt stripped open before her. Her stillness pressed against the ribs like the hush before a storm breaks.</p>
+      <p class="prose">Noctra was night-black, silver eyes open and cold, watching, measuring. His presence dominated the chamber with the patient force of glacial drift.</p>
+      <p class="prose">They did not speak together. They spoke in rhythm, like twilight and dawn.</p>
+      <p class="prose">Solin’s voice drifted like distant frost. “You lost The Way.”</p>
+      <p class="prose">Noctra’s voice followed, cool as shade. “And you found your path again.”</p>
+      <p class="prose">“You walked beside the trickster.”</p>
+      <p class="prose">“And you soothed fury with song.”</p>
+      <p class="prose">“You sparked forbidden flame.”</p>
+      <p class="prose">“And you warmed dying spirits.”</p>
+      <p class="prose">Then the cadence broke. Their voices rose together, two echoes fused into one weight.</p>
+      <p class="prose">“Which step holds truth? Which is The Way?”</p>
+      <p class="prose">Not a voice stirred among the gathered wolves. All eyes turned to the pack.</p>
+      <p class="prose">Vyrex stepped forward first. His spirit chain clinked like muted thunder. His voice cracked, but he let it crack.</p>
+      <p class="prose">“I almost killed Lokan. I wanted to. But they stayed. They sang to me. They did not run. If they had… I do not know what I would have done. That is truth.”</p>
+      <p class="prose">A ripple of murmurs stirred the gallery. The Twins did not react.</p>
+      <p class="prose">Amar moved next. Her voice held no apology. Only the dust of long travel.</p>
+      <p class="prose">“We did not betray The Way. We lost it chasing a false sun. Lokan brought fire when frost tried to claim us. We did not want to follow him. We tried to live.”</p>
+      <p class="prose">The Twins exchanged a small, almost imperceptible glance. A shared flicker of acknowledgment.</p>
+      <p class="prose">Kalyn met their gaze. “We are not clean wolves. But we kept walking. That is The Way. You rise. You go on.”</p>
+      <p class="prose">Stryder stepped last into the circle carved for the accused. The air tightened around him, and the mountain held its breath.</p>
+      <p class="prose">“I walk The Way not because I stand unbroken,” he said, his voice weary. “I walk it because when I fall, I rise. The Way is not purity. It is persistence.”</p>
+      <p class="prose">The chamber stilled.</p>
+      <p class="prose">Noctra breathed a whisper. “The Way does not punish the lost.”</p>
+      <p class="prose">Solin followed like a closing frost line. “But it recalls every step.”</p>
+      <p class="prose">Together, they said, “Do not forget. Your journey is witnessed.”</p>
+      <p class="prose">Silence fell again.</p>
+      <p class="prose">Then a scent drifted in. Smoke. Spice. A hint of wildness curling like a trick flame in the dark.</p>
+      <p class="prose">A soft laugh. Too wild. Too familiar.</p>
+      <p class="prose">Lokan trotted out from the shaded arch, grinning like a wolf who already knew the verdict.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-7">← Previous chapter</a><a href="#chapter-9">Next chapter →</a></nav>
+    </section>
+    <section class="chapter" id="chapter-9" aria-labelledby="chapter-9-title">
+      <header class="chapter-heading">
+        <div class="chapter-label">Chapter Nine</div>
+        <h2 id="chapter-9-title">The Tribunal</h2>
+      </header>
+      <p class="prose">Lokan danced to the chamber’s center, hollow pride burning in his eyes like candlelight. His smile showed too many teeth. His tail curled in quiet delight.</p>
+      <p class="prose">He bowed. Not from respect. For theater.</p>
+      <p class="prose">“So formal,” he said. “So grim. You really know how to throw a tribunal.</p>
+      <p class="prose">“I just had to come.”</p>
+      <p class="prose">His voice was gilded and smoky, too sweet, like something burning in the deep woods. The kind of smoke no wolf should breathe.</p>
+      <p class="prose">This time, he had not come to comfort or confuse. He had come to condemn.</p>
+      <p class="prose">Noctra’s silver gaze tightened. Solin watched in stillness.</p>
+      <p class="prose">Lokan paced with a jester’s gait and a prophet’s heat.</p>
+      <p class="prose">“You want truth?” His purr slid through the chamber. “Fine. I will give you truth. Charred. Cracked. Still steaming.”</p>
+      <p class="prose">He gestured toward Stryder. “Your white knight walks The Way like sacred law. But he walks it alone. Untouched. Above. He bleeds in silence. Smiles through storms. Thinks that makes him noble. But silence in pain?”</p>
+      <p class="prose">He clicked his tongue. “That is pride dressed as penance.”</p>
+      <p class="prose">A spark snapped from his paw and died before it touched the ground. “He did not rescue Amar with a pure heart. He needed to prove he was worthy.”</p>
+      <p class="prose">Solin shifted slightly. Noctra waited without motion.</p>
+      <p class="prose">Lokan turned to Kalyn. “The diplomat. Golden flame with a cracked core. So careful. So measured. Always weighing. Never choosing. He speaks of peace. Yet when Amar fell, he did not negotiate. He did not think. He lunged. That temper was not justice. It was fear. Fear of being forgotten. Fear of love moving past him.”</p>
+      <p class="prose">His grin sharpened. “And I would know. I lit that fire myself.”</p>
+      <p class="prose">Kalyn bristled. Stryder touched Kalyn’s side. The ash in the air seemed to lean closer.</p>
+      <p class="prose">Lokan’s grin softened. Almost tender. “Oh, Amar. You sing to monsters, then act surprised when they hum your tune.”</p>
+      <p class="prose">He stepped forward. Mist curled around his paws as his voice dipped. “She leads with her heart. Yet she drifts between Kalyn and Stryder like a moth afraid to land. She let the fire swell because it made her feel alive. She calls that love.”</p>
+      <p class="prose">Amar’s breath caught. Her gaze fell. Noctra’s ear twitched in the quiet.</p>
+      <p class="prose">Lokan’s voice changed. Less theater now. More truth. “And the beast,” he began. “Vyrex isn’t rage. He’s the scar rage left behind.”</p>
+      <p class="prose">He turned toward The Twins. “He was forged in betrayal. Hardened in battle. He didn’t choose violence. It chose him.”</p>
+      <p class="prose">He faced Solin. “You say mercy is earned. But when was he given the chance?”</p>
+      <p class="prose">Silence fell. Not for the Council, nor for the pack, but for Vyrex alone.</p>
+      <p class="prose">Lokan stepped back, his tail flicking like a flame searching for fuel. He stood tall.</p>
+      <p class="prose">“That is my truth,” he said. “Do with it as you will.”</p>
+      <p class="prose">He bowed again, then slipped into the murmur and murk. His laughter drifted behind him like smoke.</p>
+      <p class="prose">The hall fell still. Only the sound of paws upon sacred stone. Sun and moon in step.</p>
+      <p class="prose">Solin and Noctra moved as one. Light and shadow curled in a circle. Twin stars bound to the same sky. They came to rest before the pack.</p>
+      <p class="prose">The judgments began.</p>
+      <p class="prose">Their eyes met Stryder’s. Four eyes became two. Then one. Then came the visions.</p>
+      <p class="prose">Stryder saw himself as a pup. The slow one. The runt. Unable to grow strong, he had learned to grow inward. He searched for a place in the den, unable to compete with the stronger wolves.</p>
+      <p class="prose">Then came The Call. The first time he heard it. The moments when he doubted it, when he wanted it to be something other than what it was. Something he could explain.</p>
+      <p class="prose">Something he could survive.</p>
+      <p class="prose">He saw his exile, struggling to provide for his little family. Miryn reaching for him, and the pain when he could not reach back.</p>
+      <p class="prose">He saw Branna. Jax. The life he had left behind.</p>
+      <p class="prose">He saw how often he had carried the weight alone, believing that was what a good wolf was supposed to do.</p>
+      <p class="prose">Solin spoke quietly.</p>
+      <p class="prose">“Truth does not make your choices innocent.”</p>
+      <p class="prose">Stryder lowered his eyes.</p>
+      <p class="prose">“You followed The Way,” she continued. “But you did not know where it led.”</p>
+      <p class="prose">She paused.</p>
+      <p class="prose">“You sought peace because you loved it. You also sought peace because you feared what would happen when peace failed.”</p>
+      <p class="prose">Stryder said nothing.</p>
+      <p class="prose">Noctra’s voice carried warmth, but not comfort. “You were overlooked. So you learned not to ask. You were dismissed. So you learned not to demand. You were hurt. So you learned to endure.”</p>
+      <p class="prose">Noctra held his gaze. “Endurance is not the same as courage.”</p>
+      <p class="prose">Stryder lifted his head.</p>
+      <p class="prose">Noctra continued. “You do not need to carry every burden to prove you are worthy of carrying one.”</p>
+      <p class="prose">Solin and Noctra stood together, Justice beside Truth, neither above the other.</p>
+      <p class="prose">Solin spoke first. “You are not guilty for the burden you carry.”</p>
+      <p class="prose">Noctra continued. “But you are responsible for what you do with it.”</p>
+      <p class="prose">Silence settled over the hall. Then The Twins delivered their verdict together.</p>
+      <p class="prose">“You are not condemned. Your journey remains unfinished. You may walk The Way.”</p>
+      <p class="prose">Noctra’s voice softened. “But you must learn to walk it with others.”</p>
+      <p class="prose">Stryder bowed his head. He felt as though he were finally seen without having to prove his value.</p>
+      <p class="prose">Kalyn stepped forward. His breath was steady. His heart was not. The Twins looked upon him, and the past opened.</p>
+      <p class="prose">He saw the pup who learned to fight before he learned to ask. The young wolf who struck first because being left behind hurt worse than any injury.</p>
+      <p class="prose">He saw the Mornshade den. The Shadow Wolves. The blood.</p>
+      <p class="prose">He fought until there was no one left to fight for. Then he tried to negotiate, to save what could still be saved.</p>
+      <p class="prose">He saw the moment he understood there would be no surrender. Only loss.</p>
+      <p class="prose">He saw himself walk away alone. His grief followed. He did not look back. He smiled instead. He became useful. He carried others.</p>
+      <p class="prose">Anything to keep the grief at a distance.</p>
+      <p class="prose">Solin spoke. “You protect what you love.”</p>
+      <p class="prose">Kalyn turned toward her.</p>
+      <p class="prose">She continued. “You also protect yourself from what you feel.”</p>
+      <p class="prose">The words struck deeper than any blade.</p>
+      <p class="prose">Noctra’s gaze rested on Kalyn’s eyes. “Your strength is real. So is your loyalty.”</p>
+      <p class="prose">He paused.</p>
+      <p class="prose">“But loyalty can become a chain.”</p>
+      <p class="prose">Kalyn’s eyes narrowed. Noctra held his gaze.</p>
+      <p class="prose">“You cannot save everything,” he said. “And no amount of fighting can undo a loss.”</p>
+      <p class="prose">Kalyn lowered his head.</p>
+      <p class="prose">Noctra’s voice softened. “When another wolf suffers, you take up the burden. You try to spare them what you have endured. But you cannot carry another wolf through their grief. You can only walk beside them.”</p>
+      <p class="prose">Solin spoke again.</p>
+      <p class="prose">“You act when others hesitate. You stand when others fall. You ask, ‘What do you need?’”</p>
+      <p class="prose">Kalyn lifted his eyes.</p>
+      <p class="prose">“Remember why you ask,” Solin said. “You offer your strength because you love them. Let them choose how to use it.”</p>
+      <p class="prose">The Twins stood together. Solin’s voice rose. “Survival carries no shame.”</p>
+      <p class="prose">Noctra continued. “And grief is no failure of strength.”</p>
+      <p class="prose">Their voices joined for the verdict. “Worthy. Wounded. You have strength to give and grief to face. Learn to offer one without surrendering to the other.”</p>
+      <p class="prose">Kalyn exhaled. A long breath, as if he had been holding it since his first frost.</p>
+      <p class="prose">Amar stood with quiet grace. For one breath, the air warmed. Then the visions came. The Twins looked into her past.</p>
+      <p class="prose">Amar saw a pup without a father. A mother who called it love while keeping her weak.</p>
+      <p class="prose">Poisoned food. Closed doors. A world beyond them she could only imagine.</p>
+      <p class="prose">So she sang.</p>
+      <p class="prose">Songs of distant places. Songs of adventure. Songs of love.</p>
+      <p class="prose">She grew older with the same hunger burning inside her.</p>
+      <p class="prose">She saw the first wolf who listened. Then another.</p>
+      <p class="prose">Then another.</p>
+      <p class="prose">She saw how easily her voice drew them closer. She felt the power in it. And she saw the danger.</p>
+      <p class="prose">A wolf could want her. A wolf could love her. A wolf could lose himself in her.</p>
+      <p class="prose">And she could never make him stop.</p>
+      <p class="prose">Amar looked away. Solin’s closed eyes remained still.</p>
+      <p class="prose">“You learned to use your voice because no one listened,” she said.</p>
+      <p class="prose">Amar’s ears lowered.</p>
+      <p class="prose">“You learned to be wanted because you feared being forgotten,” Solin continued.</p>
+      <p class="prose">The words hung in the hall.</p>
+      <p class="prose">Noctra stepped closer, his silver eyes fixed upon her. “You give comfort freely. You bring wolves together. When others see one path, you search for another.”</p>
+      <p class="prose">Amar looked up. Noctra’s gaze did not soften.</p>
+      <p class="prose">“Yet you have mistaken being needed for being known,” he said.</p>
+      <p class="prose">Amar’s breath caught.</p>
+      <p class="prose">Noctra regarded her in silence before asking, “When no wolf wants anything from you, who are you?”</p>
+      <p class="prose">Amar had no words. Solin spoke again.</p>
+      <p class="prose">“You ran from a cage. You found your freedom.”</p>
+      <p class="prose">Her pale face remained serene. “Do not build another from the hearts of those who love you.”</p>
+      <p class="prose">Amar’s eyes filled with tears.</p>
+      <p class="prose">Noctra’s voice was measured. “Love asks nothing of ownership. Being wanted does not determine your significance.”</p>
+      <p class="prose">The Twins stood together. Solin delivered the first part of the verdict.</p>
+      <p class="prose">“Beloved.”</p>
+      <p class="prose">Noctra followed. “Uncertain.”</p>
+      <p class="prose">Their voices joined. “Your voice is a gift. Your agency stands apart from it. You may walk The Way. You must use your gifts wisely.”</p>
+      <p class="prose">Amar blinked once. A tear fell. She did not speak. She simply breathed. For the first time in a long time, the song inside her did not need to be heard.</p>
+      <p class="prose">Vyrex did not move. A mountain in wolf shape. He had faced monsters. He had faced armies. Now he faced two wolves who could see everything.</p>
+      <p class="prose">The Twins looked upon him. The past opened.</p>
+      <p class="prose">They saw a pup taught to fight before he knew why.</p>
+      <p class="prose">The battles. One after another. Monsters with names forgotten by history.</p>
+      <p class="prose">Villages saved. Villages burned.</p>
+      <p class="prose">Wolves carried from the fire. Wolves left behind.</p>
+      <p class="prose">They saw the rage, born of exhaustion after a lifetime of battle. They saw how often others had pointed his fire at something and called it purpose.</p>
+      <p class="prose">They saw the moment Vyrex stopped asking what was right and began asking only what could be destroyed.</p>
+      <p class="prose">They saw Hollowrest. They saw the Champion.</p>
+      <p class="prose">Then they saw Fenn of Blackroot. The blow. The silence that followed.</p>
+      <p class="prose">The pack watched. Vyrex watched himself. For once, he did not look away.</p>
+      <p class="prose">Solin spoke.</p>
+      <p class="prose">“You killed him.”</p>
+      <p class="prose">Vyrex’s jaw tightened.</p>
+      <p class="prose">“Yes.”</p>
+      <p class="prose">“You were tormented.”</p>
+      <p class="prose">“Yes.”</p>
+      <p class="prose">“You were manipulated.”</p>
+      <p class="prose">“Yes.”</p>
+      <p class="prose">“You were made into a weapon.”</p>
+      <p class="prose">Vyrex raised his eyes.</p>
+      <p class="prose">“Yes.”</p>
+      <p class="prose">Solin’s gaze remained fixed upon him.</p>
+      <p class="prose">“None of these things makes the dead less dead.”</p>
+      <p class="prose">Vyrex lowered his head. Noctra’s silver eyes stayed on him.</p>
+      <p class="prose">“You have saved lives.”</p>
+      <p class="prose">Vyrex looked at him.</p>
+      <p class="prose">“Many.”</p>
+      <p class="prose">“You have fought monsters most wolves would never face. You have stood between the innocent and the fire.”</p>
+      <p class="prose">Noctra paused, then added, “You have also become the fire.”</p>
+      <p class="prose">Vyrex closed his eyes.</p>
+      <p class="prose">“Your scars explain you,” Noctra continued. “They do not absolve you.”</p>
+      <p class="prose">Vyrex’s breath shook.</p>
+      <p class="prose">Solin spoke again. “You ask how to control your fire.”</p>
+      <p class="prose">Her voice was almost a whisper. “Then learn this. Control does not require the absence of rage. It requires you to choose where the fire falls.”</p>
+      <p class="prose">Vyrex looked at his paws. Now they looked small.</p>
+      <p class="prose">Noctra came to stand beside Solin. “You cannot undo what you have done. You cannot save enough wolves to balance one life. You cannot make Fenn’s death righteous.”</p>
+      <p class="prose">Vyrex said nothing.</p>
+      <p class="prose">“But you can refuse to take another,” Noctra said.</p>
+      <p class="prose">The hall grew still.</p>
+      <p class="prose">Noctra and Solin stood before him, Truth beside Justice.</p>
+      <p class="prose">Solin spoke first. “You are guilty of what you did.”</p>
+      <p class="prose">Vyrex raised his head.</p>
+      <p class="prose">Noctra continued. “You are liable for what you do next.”</p>
+      <p class="prose">A long silence.</p>
+      <p class="prose">Then The Twins delivered their verdict. “Guilty. Damaged…</p>
+      <p class="prose">“Accountable.”</p>
+      <p class="prose">Solin’s pale face remained still. Noctra’s silver eyes held Vyrex’s.</p>
+      <p class="prose">“Your past cannot be undone. Your future remains yours to choose,” he said.</p>
+      <p class="prose">Vyrex bowed his head. The fire remained. Now he understood what it would demand of him.</p>
+      <p class="prose">Solin and Noctra turned toward the pack. Their voices braided together.</p>
+      <p class="prose">“Each of you has stood before The Way. Each of you carries truth and shadow. Each of you carries the seed of balance.”</p>
+      <p class="prose">They looked upon the wolves before them. “You may move forward, but not alone.”</p>
+      <p class="prose">Their eyes passed over the pack. “No Alpha stands among you.”</p>
+      <p class="prose">The words settled heavily.</p>
+      <p class="prose">“You cannot continue with such a fracture. If harmony breaks, if The Way falters, The Order will return.”</p>
+      <p class="prose">Noctra closed his eyes. Solin’s stillness deepened. The hall fell silent.</p>
+      <p class="prose">The judgment was done.</p>
+      <p class="prose">The pack looked at one another, then at Stryder. A silent question hung in the air between them.</p>
+      <p class="voice-line"><em>Now what?</em></p>
+      <p class="prose">Before Stryder could speak, a voice rose from the far edge of the hall, beyond the glow of judgment fires, beyond the murmur of cloaked witnesses.</p>
+      <p class="prose">“I would speak.”</p>
+      <p class="prose">Zylas.</p>
+      <p class="prose">The hall shifted. A breath held in the dark. Even Noctra paused mid-inhale. Solin’s ears perked toward The Elder.</p>
+      <p class="prose">Zylas moved with the calm grace of one who had carried truth longer than most had carried their own names. Her black coat drank the torchlight and returned it as faint starfire.</p>
+      <p class="prose">“Judgment is passed,” Solin said, her voice cool as frost before dawn.</p>
+      <p class="prose">Zylas nodded once. “Then purpose follows.”</p>
+      <p class="prose">She came closer, her gaze focused on Stryder like a hunter. She stopped before The Twins.</p>
+      <p class="prose">“You have named their faults. Now name their chance. You say they may not walk The Way alone. I agree.”</p>
+      <p class="prose">She looked upon the four. “They need guidance. They need correction. But more than that, they need The Way lived, not spoken.”</p>
+      <p class="prose">Chatter stirred through the hall. A small brown wolf tilted her head. A larger one looked up from the pebble he had been studying as if it were scripture.</p>
+      <p class="prose">Zylas continued, her voice resolute as river rock.</p>
+      <p class="prose">“They are not without merit. They seek balance even in chaos. That alone is rare. So I offer myself. I stand as their Alpha. Not to shield them. Not to bind them. But to lead them toward understanding.”</p>
+      <p class="prose">Noctra’s tail flicked. Solin’s ears flattened.</p>
+      <p class="prose">“I do not walk alone,” Zylas said. “A pack needs more than a guide. It needs wisdom, yes, but also witness. And fidelity. Let two others walk with us.”</p>
+      <p class="prose">She turned and called out, “Wisp! Crag! Introduce yourselves, and be forthright. Solin and Noctra can see your past.”</p>
+      <p class="prose">Two brown wolves stepped from the edge of the chamber. Twins who were not The Twins.</p>
+      <p class="prose">The smaller moved first, light on her paws, a smile that hid truth and revealed it all at once.</p>
+      <p class="prose">“I am Wisp,” she said with a small bow. “No noble blood. No holy rite. Only the duty of history.”</p>
+      <p class="prose">Her violet eyes swept over the four, lingering on Kalyn, on Amar.</p>
+      <p class="prose">“I have stood where stories were shaped. I wrote what was said, even when meaning lived beneath it. I believed truth could be captured without understanding.”</p>
+      <p class="prose">Her smile thinned.</p>
+      <p class="prose">“I thought cleverness could bend consequences. I know better now. I try to step more carefully.”</p>
+      <p class="prose">The larger wolf lurched forward, heavy and measured, as if asking the ground for permission with each step.</p>
+      <p class="prose">“I am Crag.” The words were stone.</p>
+      <p class="prose">“I watch erosion. I study pressure. I know what happens when balance is ignored. In rock and blood and time.”</p>
+      <p class="prose">His gaze returned to Zylas. “I offer no passion. Only precision. If they stray, I will correct course.”</p>
+      <p class="prose">Noctra and Solin shared a look. Something new passed between them. A second verdict forming beneath the first, like roots twisting under packed snow.</p>
+      <p class="prose">At last, they turned to Zylas.</p>
+      <p class="prose">“You will speak for the pack?” Solin asked.</p>
+      <p class="prose">“I will,” Zylas said. “And I will walk with them. Not to forgive their shadows. To teach them to hold their own light without flinching.”</p>
+      <p class="prose">The Twins answered as one. “Then let it be known. The pack may continue. But only under your eye. Their fates are tethered. If The Way falters again…”</p>
+      <p class="prose">Solin’s voice fell to a whisper.</p>
+      <p class="prose">“The Order will return.”</p>
+      <p class="prose">Silence followed. Not celebration, not relief. Only breath shared among wolves who knew their world had changed.</p>
+      <p class="prose">A pack provisionally mended. A guide provisionally trusted.</p>
+      <p class="prose">Three who would walk beside the four. Not as friends. As something more dangerous.</p>
+      <p class="prose">Witnesses to each other’s becoming.</p>
+      <p class="prose">And high above in the smoke-scraped sky, a great blue bird circled in silence, watching everything unfold below.</p>
+      <nav class="chapter-nav" aria-label="Chapter navigation"><a href="#chapter-8">← Previous chapter</a><a href="index.html#saga">Return to the saga</a></nav>
+    </section>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Michael Stryder · Dream of The White Wolf</p>
+      <a class="back-top" href="#top">Return to the beginning ↑</a>
+    </div>
+  </footer>
+  <script>
+    const menuButton = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-links");
+    menuButton.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      menuButton.setAttribute("aria-expanded", String(open));
+    });
+    nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      nav.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+    }));
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
